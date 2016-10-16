@@ -31,67 +31,103 @@
 
             <LinearLayout
                 android:id="@+id/goldroom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                style="@style/artist_bar">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/artist_pic"
+                    android:src="@drawable/goldroom_album"/>
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/main_artist_text"
+                    android:text="@string/goldroom"/>
             </LinearLayout>
+
+            <View
+                style="@style/grey_line">
+            </View>
 
             <LinearLayout
                 android:id="@+id/nora_en_pure"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                style="@style/artist_bar">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/artist_pic"
+                    android:src="@drawable/nora_en_pure_album"/>
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/main_artist_text"
+                    android:text="@string/nora_en_pure"/>
             </LinearLayout>
+
+            <View
+                style="@style/grey_line">
+            </View>
 
             <LinearLayout
                 android:id="@+id/rufus_du_sol"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                style="@style/artist_bar">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/artist_pic"
+                    android:src="@drawable/rufus_du_sol_album"/>
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/main_artist_text"
+                    android:text="@string/rufus_du_sol"/>
             </LinearLayout>
+
+            <View
+                style="@style/grey_line">
+            </View>
 
             <LinearLayout
                 android:id="@+id/satin_jackets"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                style="@style/artist_bar">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/artist_pic"
+                    android:src="@drawable/satin_jackets_album"/>
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/main_artist_text"
+                    android:text="@string/satin_jackets"/>
             </LinearLayout>
+
+            <View
+                style="@style/grey_line">
+            </View>
 
             <LinearLayout
                 android:id="@+id/tycho"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                style="@style/artist_bar">
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/artist_pic"
+                    android:src="@drawable/tycho_album"/>
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    style="@style/main_artist_text"
+                    android:text="@string/tycho"/>
+            </LinearLayout>
+
+            <View
+                style="@style/grey_line">
+            </View>
+
+            <LinearLayout
+                android:id="@+id/odesza"
+                style="@style/artist_bar">
+                <ImageView
+                    style="@style/artist_pic"
+                    android:src="@drawable/odesza_album"/>
+                <TextView
+                    style="@style/main_artist_text"
+                    android:text="@string/odesza"/>
+            </LinearLayout>
+
+            <View
+                style="@style/grey_line">
+            </View>
+
+            <LinearLayout
+                android:id="@+id/kygo"
+                style="@style/artist_bar">
+                <ImageView
+                    style="@style/artist_pic"
+                    android:src="@drawable/kygo_album"/>
+                <TextView
+                    style="@style/main_artist_text"
+                    android:text="@string/kygo"/>
             </LinearLayout>
 
         </LinearLayout>

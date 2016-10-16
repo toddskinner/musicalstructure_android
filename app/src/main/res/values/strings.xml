@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Musical Structure</string>
+    <string name="goldroom">Goldroom Station</string>
+    <string name="nora_en_pure">Nora En Pure Station</string>
+    <string name="satin_jackets">Satin Jackets Station</string>
+    <string name="tycho">Tycho Station</string>
+    <string name="rufus_du_sol">Rufus Du Sol Station</string>
+    <string name="kygo">Kygo Station</string>
+    <string name="odesza">Odesza Station</string>
 </resources>
