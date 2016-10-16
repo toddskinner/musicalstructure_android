@@ -7,4 +7,6 @@
     <string name="rufus_du_sol">Rufus Du Sol Station</string>
     <string name="kygo">Kygo Station</string>
     <string name="odesza">Odesza Station</string>
+    <string name="stations">Stations</string>
+    <string name="browse">Browse</string>
 </resources>
