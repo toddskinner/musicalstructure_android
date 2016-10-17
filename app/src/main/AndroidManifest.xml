@@ -15,7 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GoldroomActivity"></activity>
+        <activity android:name=".GoldroomActivity" />
+        <activity android:name=".NoraEnPureActivity" />
+        <activity android:name=".OdeszaActivity" />
+        <activity android:name=".KygoActivity" />
+        <activity android:name=".SatinJacketsActivity" />
+        <activity android:name=".RufusDuSolActivity"></activity>
     </application>
 
 </manifest>

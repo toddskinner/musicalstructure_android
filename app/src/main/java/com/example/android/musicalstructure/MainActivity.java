@@ -27,6 +27,50 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        LinearLayout noraenpure = (LinearLayout) findViewById(R.id.nora_en_pure);
+        noraenpure.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent noraenpureIntent = new Intent(MainActivity.this, NoraEnPureActivity.class);
+                startActivity(noraenpureIntent);
+            }
+        });
+
+        LinearLayout rufusdusol = (LinearLayout) findViewById(R.id.rufus_du_sol);
+        rufusdusol.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent rufusdusolIntent = new Intent(MainActivity.this, RufusDuSolActivity.class);
+                startActivity(rufusdusolIntent);
+            }
+        });
+
+        LinearLayout satinjackets = (LinearLayout) findViewById(R.id.satin_jackets);
+        satinjackets.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent satinjacketsIntent = new Intent(MainActivity.this, SatinJacketsActivity.class);
+                startActivity(satinjacketsIntent);
+            }
+        });
+
+        LinearLayout kygo = (LinearLayout) findViewById(R.id.kygo);
+        kygo.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent kygoIntent = new Intent(MainActivity.this, KygoActivity.class);
+                startActivity(kygoIntent);
+            }
+        });
+
+        LinearLayout odesza = (LinearLayout) findViewById(R.id.odesza);
+        odesza.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent odeszaIntent = new Intent(MainActivity.this, OdeszaActivity.class);
+                startActivity(odeszaIntent);
+            }
+        });
 
     }
 }
