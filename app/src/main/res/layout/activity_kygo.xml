@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_kygo"
     android:layout_width="match_parent"
@@ -7,75 +7,83 @@
     android:background="@color/lightest_grey"
     tools:context="com.example.android.musicalstructure.KygoActivity">
 
-    <LinearLayout
+    <!-- Am sure there is a way to do this without repeating each of these layouts, but don't know how yet -->
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:orientation="vertical">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                style="@style/song_upper_left_arrow"
-                android:src="@drawable/arrow_left" />
-
-            <TextView
-                style="@style/song_station_name"
-                android:text="@string/kygo" />
-
-            <ImageView
-                style="@style/song_upper_right_thumb"
-                android:src="@drawable/thumb_up" />
-
-        </RelativeLayout>
-
-        <ImageView
-            style="@style/song_image"
-            android:src="@drawable/kygo_song" />
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:orientation="vertical">
 
-            <TextView
-                style="@style/song_name"
-                android:text="@string/kygo_song"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <TextView
-                style="@style/song_by"
-                android:text="@string/kygo_artist"/>
+                <ImageView
+                    style="@style/song_upper_left_arrow"
+                    android:src="@drawable/arrow_left" />
+
+                <TextView
+                    style="@style/song_station_name"
+                    android:text="@string/kygo" />
+
+                <ImageView
+                    style="@style/song_upper_right_thumb"
+                    android:src="@drawable/thumb_up" />
+
+            </RelativeLayout>
+
+            <ImageView
+                style="@style/song_image"
+                android:src="@drawable/kygo_song" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/song_name"
+                    android:text="@string/kygo_song"/>
+
+                <TextView
+                    style="@style/song_by"
+                    android:text="@string/kygo_artist"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/song_control_bar">
+
+                <ImageView
+                    style="@style/control_item"
+                    android:src="@drawable/replay" />
+
+                <ImageView
+                    style="@style/control_item"
+                    android:src="@drawable/thumb_down" />
+
+                <ImageView
+                    style="@style/control_item"
+                    android:src="@drawable/thumb_up" />
+
+                <ImageView
+                    style="@style/control_item"
+                    android:src="@drawable/play_arrow" />
+
+                <ImageView
+                    style="@style/control_item"
+                    android:src="@drawable/fast_forward" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
-        <LinearLayout
-            style="@style/song_control_bar">
+    </RelativeLayout>
 
-            <ImageView
-                style="@style/control_item"
-                android:src="@drawable/replay" />
-
-            <ImageView
-                style="@style/control_item"
-                android:src="@drawable/thumb_down" />
-
-            <ImageView
-                style="@style/control_item"
-                android:src="@drawable/thumb_up" />
-
-            <ImageView
-                style="@style/control_item"
-                android:src="@drawable/play_arrow" />
-
-            <ImageView
-                style="@style/control_item"
-                android:src="@drawable/fast_forward" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-</RelativeLayout>
+</ScrollView>
