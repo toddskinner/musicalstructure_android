@@ -4,6 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightest_grey"
     android:orientation="vertical"
     tools:context="com.example.android.musicalstructure.MainActivity">
 
@@ -29,6 +30,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <View
+                style="@style/grey_line">
+            </View>
 
             <LinearLayout
                 android:id="@+id/goldroom"
