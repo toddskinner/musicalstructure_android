@@ -31,7 +31,7 @@
 
                 <TextView
                     style="@style/song_station_name"
-                    android:text="@string/goldroom" />
+                    android:text="@string/nora_en_pure" />
 
                 <ImageView
                     style="@style/song_upper_right_thumb"
@@ -41,7 +41,7 @@
 
             <ImageView
                 style="@style/song_image"
-                android:src="@drawable/goldroom_song" />
+                android:src="@drawable/nora_en_pure_song" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -50,11 +50,11 @@
 
                 <TextView
                     style="@style/song_name"
-                    android:text="@string/goldroom_song"/>
+                    android:text="@string/nora_en_pure_song"/>
 
                 <TextView
                     style="@style/song_by"
-                    android:text="@string/goldroom_artist"/>
+                    android:text="@string/nora_en_pure_artist"/>
             </LinearLayout>
 
             <LinearLayout
