@@ -1,12 +1,26 @@
 <resources>
     <string name="app_name">Musical Structure</string>
     <string name="goldroom">Goldroom Station</string>
+    <string name="goldroom_artist">Goldroom</string>
+    <string name="goldroom_song">Embrace</string>
     <string name="nora_en_pure">Nora En Pure Station</string>
+    <string name="nora_en_pure_artist">Nora En Pure</string>
+    <string name="nora_en_pure_song">Satisfy</string>
     <string name="satin_jackets">Satin Jackets Station</string>
+    <string name="satin_jackets_artist">Satin Jackets</string>
+    <string name="satin_jackets_song">For Days (feat. KLP)</string>
     <string name="tycho">Tycho Station</string>
+    <string name="tycho_artist">Tycho</string>
+    <string name="tycho_song">Coastal Brake</string>
     <string name="rufus_du_sol">Rufus Du Sol Station</string>
+    <string name="rufus_du_sol_artist">Rufus Du Sol</string>
+    <string name="rufus_du_sol_song">Bloom</string>
     <string name="kygo">Kygo Station</string>
+    <string name="kygo_artist">Kygo</string>
+    <string name="kygo_song">Firestone</string>
     <string name="odesza">Odesza Station</string>
+    <string name="odesza_artist">Odesza</string>
+    <string name="odesza_song">All We Need (feat. Shy Girls)</string>
     <string name="stations">Stations</string>
     <string name="browse">Browse</string>
 </resources>
