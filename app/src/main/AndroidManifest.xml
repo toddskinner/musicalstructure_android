@@ -21,7 +21,8 @@
         <activity android:name=".KygoActivity" />
         <activity android:name=".SatinJacketsActivity" />
         <activity android:name=".RufusDuSolActivity" />
-        <activity android:name=".TychoActivity"></activity>
+        <activity android:name=".TychoActivity" />
+        <activity android:name=".BrowseActivity"></activity>
     </application>
 
 </manifest>

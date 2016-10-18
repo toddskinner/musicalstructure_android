@@ -27,6 +27,7 @@
 
                 <ImageView
                     style="@style/song_upper_left_arrow"
+                    android:id="@+id/back_arrow_odesza"
                     android:src="@drawable/arrow_left" />
 
                 <TextView

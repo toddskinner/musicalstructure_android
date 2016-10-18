@@ -13,5 +13,14 @@ public class SatinJacketsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_satin_jackets);
+
+        ImageView satinjackets = (ImageView) findViewById(R.id.back_arrow_satinjackets);
+        satinjackets.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent backIntent = new Intent(SatinJacketsActivity.this, MainActivity.class);
+                startActivity(backIntent);
+            }
+        });
     }
 }

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_browse"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightest_grey"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.BrowseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/buttonStyle"
+            android:id="@+id/stations_button"
+            android:text="@string/stations" />
+
+        <Button
+            android:id="@+id/browse_button"
+            style="@style/buttonStyle"
+            android:text="@string/browse" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/main_browse_image"
+                android:src="@drawable/browse"/>
+
+            <LinearLayout
+                android:id="@+id/browse_"
+                style="@style/artist_bar">
+
+                <TextView
+                    style="@style/main_artist_text"
+                    android:text="@string/goldroom"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

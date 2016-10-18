@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -81,5 +82,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button browse = (Button) findViewById(R.id.browse_button);
+        browse.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent browseIntent = new Intent(MainActivity.this, BrowseActivity.class);
+                startActivity(browseIntent);
+            }
+        });
     }
 }

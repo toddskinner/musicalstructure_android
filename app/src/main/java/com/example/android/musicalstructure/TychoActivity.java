@@ -15,8 +15,8 @@ public class TychoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tycho);
 
-        ImageView goldroom = (ImageView) findViewById(R.id.back_arrow_tycho);
-        goldroom.setOnClickListener(new View.OnClickListener(){
+        ImageView tycho = (ImageView) findViewById(R.id.back_arrow_tycho);
+        tycho.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 Intent backIntent = new Intent(TychoActivity.this, MainActivity.class);

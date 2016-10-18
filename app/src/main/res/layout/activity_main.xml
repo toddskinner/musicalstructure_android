@@ -17,6 +17,7 @@
             android:text="@string/stations" />
 
         <Button
+            android:id="@+id/browse_button"
             style="@style/buttonStyle"
             android:text="@string/browse" />
 
