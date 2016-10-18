@@ -20,7 +20,8 @@
         <activity android:name=".OdeszaActivity" />
         <activity android:name=".KygoActivity" />
         <activity android:name=".SatinJacketsActivity" />
-        <activity android:name=".RufusDuSolActivity"></activity>
+        <activity android:name=".RufusDuSolActivity" />
+        <activity android:name=".TychoActivity"></activity>
     </application>
 
 </manifest>

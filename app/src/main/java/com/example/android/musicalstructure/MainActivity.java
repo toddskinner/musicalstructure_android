@@ -72,5 +72,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        LinearLayout tycho = (LinearLayout) findViewById(R.id.tycho);
+        tycho.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent tychoIntent = new Intent(MainActivity.this, TychoActivity.class);
+                startActivity(tychoIntent);
+            }
+        });
+
     }
 }
