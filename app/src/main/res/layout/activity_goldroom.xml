@@ -32,7 +32,7 @@
 
                 <TextView
                     style="@style/song_station_name"
-                    android:text="@string/goldroom" />
+                    android:text="@string/now_playing" />
 
                 <ImageView
                     style="@style/song_upper_right_thumb"

@@ -66,6 +66,8 @@
                     android:layout_alignParentRight="true"/>
             </RelativeLayout>
 
+            <!-- Ideally click on a cover and creates a station and begins listening -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
