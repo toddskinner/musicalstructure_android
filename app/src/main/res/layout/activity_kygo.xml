@@ -58,6 +58,8 @@
                     android:text="@string/kygo_artist"/>
             </LinearLayout>
 
+            <!-- Would love to add the ability to play the songs. Guess we will learn that soon. -->
+
             <LinearLayout
                 style="@style/song_control_bar">
 

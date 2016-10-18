@@ -23,4 +23,6 @@
     <string name="odesza_song">All We Need (feat. Shy Girls)</string>
     <string name="stations">Stations</string>
     <string name="browse">Browse</string>
+    <string name="browse_genres">Browse Genres</string>
+    <string name="view_all">View All</string>
 </resources>

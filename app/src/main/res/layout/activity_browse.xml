@@ -37,17 +37,63 @@
                 style="@style/main_browse_image"
                 android:src="@drawable/browse"/>
 
-            <LinearLayout
+            <RelativeLayout
                 android:id="@+id/browse_"
-                style="@style/artist_bar">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp">
 
                 <TextView
-                    style="@style/main_artist_text"
-                    android:text="@string/goldroom"/>
+                    style="@style/browse_genres_text"
+                    android:text="@string/browse_genres"/>
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:textSize="15sp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="36dp"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true" />
+
+                <ImageView
+                    android:id="@+id/arrow_right"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:paddingTop="6dp"
+                    android:src="@drawable/arrow_right"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/browse_covers"
+                    android:src="@drawable/chvrches"/>
+
+                <ImageView
+                    style="@style/browse_covers"
+                    android:src="@drawable/bagraiders"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/browse_covers"
+                    android:src="@drawable/flume"/>
+
+                <ImageView
+                    style="@style/browse_covers"
+                    android:src="@drawable/nakedfamous"/>
+
             </LinearLayout>
 
         </LinearLayout>
