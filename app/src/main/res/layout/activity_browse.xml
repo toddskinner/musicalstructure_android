@@ -24,6 +24,11 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose: Provide other genres/artists the user may want to listen to. Ideally, could click on album cover below and will take them to that genre/artist's station"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

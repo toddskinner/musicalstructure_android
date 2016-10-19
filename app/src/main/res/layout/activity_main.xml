@@ -9,6 +9,10 @@
     tools:context="com.example.android.musicalstructure.MainActivity">
 
     <!-- Tried to recreate layout of Pandora app with list of radio stations and now playing screens if click on any station -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose: List all of the users available stations based on artist"/>
 
     <TextView
         android:layout_width="match_parent"

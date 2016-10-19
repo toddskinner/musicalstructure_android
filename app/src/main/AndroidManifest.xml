@@ -15,14 +15,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GoldroomActivity" />
-        <activity android:name=".NoraEnPureActivity" />
-        <activity android:name=".OdeszaActivity" />
-        <activity android:name=".KygoActivity" />
-        <activity android:name=".SatinJacketsActivity" />
-        <activity android:name=".RufusDuSolActivity" />
-        <activity android:name=".TychoActivity" />
-        <activity android:name=".BrowseActivity"></activity>
+        <activity android:name=".GoldroomActivity"
+            android:label="Goldroom Station"/>
+        <activity android:name=".NoraEnPureActivity"
+            android:label="Nora En Pure Station"/>
+        <activity android:name=".OdeszaActivity"
+            android:label="Odesza Station"/>
+        <activity android:name=".KygoActivity"
+            android:label="Kygo Station"/>
+        <activity android:name=".SatinJacketsActivity"
+            android:label="Satin Jackets Station"/>
+        <activity android:name=".RufusDuSolActivity"
+            android:label="Rufus Du Sol Station"/>
+        <activity android:name=".TychoActivity"
+            android:label="Tycho Station"/>
+        <activity android:name=".BrowseActivity"
+            android:label="Browse Genres">
+        </activity>
     </application>
 
 </manifest>
